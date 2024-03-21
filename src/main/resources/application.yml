@@ -1,0 +1,22 @@
+spring:
+  security:
+    filter:
+      order: -100
+    jwt:
+      expire: 7
+      key: abcdefghijk
+  datasource:
+    username: root
+    password: yyt123456
+    url: jdbc:mysql://localhost:3306/vue-database
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail:
+    host: smtp.163.com
+    username: 18061946436@163.com
+    password:  WPXQSXPXMSMASPGJ
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  servlet:
+    multipart:
+      max-file-size: 10MB
